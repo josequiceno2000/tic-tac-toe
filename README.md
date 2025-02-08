@@ -16,8 +16,8 @@ Allows for two players to play tic tac toe
     e) array board which holds each position on the tic-tac-toe-board ✔️
     f) bool board_full = false until there is a value at each position ✔️
 6: Create end() function ✔️ 
-7: Create while loop for playing
-    a) while not player1_wins && not player2_wins && turn_count < 10
+7: Create while loop for playing ✔️
+    a) while not player1_wins && not player2_wins && turn_count < 10 ✔️
         i) Add round() function:
             I) Display current board
             II) Take player1_input
@@ -31,4 +31,4 @@ Allows for two players to play tic tac toe
             VI) Check if game is over
                 - check if board is full
                 - check for the 8 possible win conditions for player2
-            VII) turn_count++
+            VII) turn_count++ ✔️
