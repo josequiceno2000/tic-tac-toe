@@ -2,19 +2,19 @@
 Allows for two players to play tic tac toe
 
 # Plan
-1: Populate README.md DONE
-2: Add files for project (main, function header, functions) DONE
-3: Include boilerplate for all files DONE
-4: Create greet() function
-    a) Must introduce game
-    b) Explain how to play
-5: Add variables to main:
-    a) int player1_input (each cell on the grid has number 1-9)
-    b) int player2_input (each cell on the grid has number 1-9)
-    c) bool player1_wins = false
-    d) bool player2_wins = false
-    e) array board which holds each position on the tic-tac-toe-board
-    f) bool board_full = false until there is a value at each position
+1: Populate README.md ✔️
+2: Add files for project (main, function header, functions) ✔️
+3: Include boilerplate for all files ✔️
+4: Create greet() function ✔️
+    a) Must introduce game ✔️
+    b) Explain how to play ✔️
+5: Add variables to main: ✔️
+    a) int player1_input (each cell on the grid has number 1-9) ✔️
+    b) int player2_input (each cell on the grid has number 1-9) ✔️
+    c) bool player1_wins = false ✔️
+    d) bool player2_wins = false ✔️
+    e) array board which holds each position on the tic-tac-toe-board ✔️
+    f) bool board_full = false until there is a value at each position ✔️
 6: Create end() function
     a) Display final board
     b) Display the winner based on bools  
