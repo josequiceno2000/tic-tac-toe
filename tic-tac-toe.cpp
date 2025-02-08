@@ -8,8 +8,11 @@ int main() {
     bool player1_wins = false;
     bool player2_wins = false;
     char board[10];
-    bool board_full = false;
+    int turn_count = 0;
 
     // Greet players
     greet();
+
+    // Farewell
+    endgame();
 }

@@ -2,3 +2,4 @@
 
 // FIXME: Declare functions
 void greet();
+void endgame();
