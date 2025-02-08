@@ -4,7 +4,7 @@ Allows for two players to play tic tac toe
 # Plan
 1: Populate README.md DONE
 2: Add files for project (main, function header, functions) DONE
-3: Include boilerplate for all files
+3: Include boilerplate for all files DONE
 4: Create greet() function
     a) Must introduce game
     b) Display board
