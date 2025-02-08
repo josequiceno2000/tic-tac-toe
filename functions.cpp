@@ -28,7 +28,7 @@ void greet() {
     std::cin >>play_game;
 
     if (play_game == 'p') {
-        std::cout << "\nGreat! Let's begin:\n";
+        std::cout << "\nGreat! Let's begin:\n\n";
     }
     else {
         std::cout << "\nOkay. Maybe another time then.\n";
@@ -41,4 +41,46 @@ void endgame() {
     << "\n\n--------------------------------------------------------------------\n"
     << "=========================== TIC-TAC-TOE ===========================\n"
     << "--------------------------------------------------------------------\n\n";
+}
+
+void display_board(char board[], int board_size) {
+    // Loop to create the board
+        for (int i = 0; i < board_size; i++) {
+            if (i < 3) {
+                std::cout
+                << "[" << board[i] << "] ";
+            }
+            else if (i == 3) {
+                std:: cout
+                << "\n[" << board[i] << "] ";
+            }
+            else if (i < 6) {
+                std::cout
+                << "[" << board[i] << "] ";
+            }
+            else if (i == 6) {
+                std:: cout
+                << "\n[" << board[i] << "] ";
+            }
+            else if (i < 9) {
+                std::cout
+                << "[" << board[i] << "] ";
+            }
+            else if (i == 9) {
+                std:: cout
+                << "\n[" << board[i] << "] ";
+            }
+            
+        }
+        std::cout 
+        << "\n\n";
+}
+
+void display_current_round(int turn_count) {
+    std::cout 
+        << "----------------------------\n"
+        << "          ROUND "
+        << turn_count
+        << "\n----------------------------\n"
+        << "\n\n";
 }

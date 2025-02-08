@@ -19,7 +19,7 @@ Allows for two players to play tic tac toe
 7: Create while loop for playing ✔️
     a) while not player1_wins && not player2_wins && turn_count < 10 ✔️
         i) Add round() function:
-            I) Display current board
+            I) Display current board ✔️
             II) Take player1_input
                 - while loop that keeps going until player inputs a space that's not full
             III) Check if game is over
