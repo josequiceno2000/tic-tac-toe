@@ -2,5 +2,5 @@
 #include "functions.hpp"
 
 int main() {
-    
+    greet();
 }

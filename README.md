@@ -7,8 +7,7 @@ Allows for two players to play tic tac toe
 3: Include boilerplate for all files DONE
 4: Create greet() function
     a) Must introduce game
-    b) Display board
-    c) Explain how to play
+    b) Explain how to play
 5: Add variables to main:
     a) int player1_input (each cell on the grid has number 1-9)
     b) int player2_input (each cell on the grid has number 1-9)
