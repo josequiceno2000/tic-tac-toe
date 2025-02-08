@@ -18,17 +18,17 @@ Allows for two players to play tic tac toe
 6: Create end() function ✔️ 
 7: Create while loop for playing ✔️
     a) while not player1_wins && not player2_wins && turn_count < 10 ✔️
-        i) Add round() function:
+        i) Add round() function: ✔️
             I) Display current board ✔️
-            II) Take player1_input
-                - while loop that keeps going until player inputs a space that's not full
+            II) Take player1_input ✔️
+                - while loop that keeps going until player inputs a space that's not full ✔️
             III) Check if game is over
-                - check if board is full
-                - check for the 8 possible win conditions for player1
-            IV) Display current board
-            V) Take player2_input
-                - while loop that keeps going until player inputs a space that's not full
-            VI) Check if game is over
-                - check if board is full
-                - check for the 8 possible win conditions for player2
+                - check if board is full ✔️
+                - check for the 8 possible win conditions for player1 ✔️
+            IV) Display current board ✔️
+            V) Take player2_input ✔️
+                - while loop that keeps going until player inputs a space that's not full ✔️
+            VI) Check if game is over ✔️
+                - check if board is full ✔️
+                - check for the 8 possible win conditions for player2 ✔️
             VII) turn_count++ ✔️
